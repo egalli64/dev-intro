@@ -2,10 +2,11 @@
  * Introduction to Software Development (Java)
  * 
  * https://github.com/egalli64/dev-intro
- *
- * Boolean variables and operators
  */
 
+/**
+ * Boolean variables and operators
+ */
 void main() {
     // a boolean variable
     boolean a = true;
