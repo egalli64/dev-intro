@@ -5,7 +5,7 @@
  */
 
 /**
- * Loop while
+ * The while loop
  */
 void main() {
     int value = 0;
