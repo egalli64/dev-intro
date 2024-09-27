@@ -2,10 +2,11 @@
  * Introduction to Software Development (Java)
  * 
  * https://github.com/egalli64/dev-intro
- *
- * Exercise on difference
  */
 
+/**
+ * Exercise on difference
+ */
 void main() {
     int a = 12;
     System.out.println("a is " + a);

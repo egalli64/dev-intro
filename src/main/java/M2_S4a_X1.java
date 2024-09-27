@@ -2,10 +2,11 @@
  * Introduction to Software Development (Java)
  * 
  * https://github.com/egalli64/dev-intro
- *
- * Exercise on division
  */
 
+/**
+ * Exercise on division
+ */
 void main() {
     int a = 42;
     System.out.println("a is " + a);

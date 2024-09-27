@@ -2,10 +2,11 @@
  * Introduction to Software Development (Java)
  * 
  * https://github.com/egalli64/dev-intro
- *
- * Decision by if-else
  */
 
+/**
+ * Conditional statements
+ */
 void main() {
     int a = 7;
     System.out.println("a is " + a);
