@@ -3,7 +3,7 @@
  * 
  * https://github.com/egalli64/dev-intro
  *
- * Exercise on division
+ * Exercise on difference
  */
 
 void main() {
