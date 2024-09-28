@@ -2,12 +2,15 @@
  * Introduction to Software Development (Java)
  * 
  * https://github.com/egalli64/dev-intro
- *
- * From a flow chart to code: say hello to the user
  */
 
 import java.util.Scanner;
 
+/**
+ * From flow chart to code
+ * <p>
+ * Say hello to the user
+ */
 void main() {
     System.out.print("What's your name? ");
 
