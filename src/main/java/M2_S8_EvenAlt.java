@@ -2,10 +2,13 @@
  * Introduction to Software Development (Java)
  * 
  * https://github.com/egalli64/dev-intro
- *
- * From pseudo-code to code: print even values only from an array
  */
 
+/**
+ * From pseudo-code to code
+ * <p>
+ * Print even values only from an array
+ */
 void main() {
     int[] data = { 1, 42, 13, 3, 45, 2 };
 
