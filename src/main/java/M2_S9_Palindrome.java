@@ -2,10 +2,13 @@
  * Introduction to Software Development (Java)
  * 
  * https://github.com/egalli64/dev-intro
- *
- * From flow chart / pseudo-code to code: is a palindrome?
  */
 
+/**
+ * From flow chart / pseudo-code to code
+ * <p>
+ * Is the given string a palindrome?
+ */
 void main() {
     // indices: 0123
     String s = "abba";
