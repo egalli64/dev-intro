@@ -2,13 +2,15 @@
  * Introduction to Software Development (Java)
  * 
  * https://github.com/egalli64/dev-intro
- *
- * From flow chart to code: print only the even numbers in an array
  */
 
 /**
- * This code almost doesn't look Java The idea is following the related
- * flowchart blindly. We'll see how to rewrite it in a more idiomatic way
+ * From flow chart to code: print only the even numbers in an array
+ * <p>
+ * This code almost doesn't look Java
+ * <p>
+ * The idea is following the related flowchart blindly. We'll see how to rewrite
+ * it in a more idiomatic way
  */
 void main() {
     // an array of integers
