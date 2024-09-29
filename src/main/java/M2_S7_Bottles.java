@@ -2,12 +2,15 @@
  * Introduction to Software Development (Java)
  * 
  * https://github.com/egalli64/dev-intro
- *
- * From flow chart to code: buy n or 6 bottles of milk
  */
 
 import java.util.Scanner;
 
+/**
+ * From flow chart to code
+ * <p>
+ * Buy n (based on eggs!) bottles of milk
+ */
 void main() {
     int n = 1;
 
@@ -15,6 +18,7 @@ void main() {
     Scanner scanner = new Scanner(System.in);
     String input = scanner.next();
 
+    // if eggs are there, the number of milk bottles changes (?!)
     char c = input == null || input.isEmpty() ? 'y' : Character.toLowerCase(input.charAt(0));
     if (c == 'y') {
         n = 6;

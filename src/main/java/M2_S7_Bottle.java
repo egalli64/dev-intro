@@ -2,10 +2,13 @@
  * Introduction to Software Development (Java)
  * 
  * https://github.com/egalli64/dev-intro
- *
- * From flow chart to code: buy n bottles of milk
  */
 
+/**
+ * From flow chart to code
+ * <p>
+ * Buy n bottles of milk
+ */
 void main() {
     int n = 1;
 
