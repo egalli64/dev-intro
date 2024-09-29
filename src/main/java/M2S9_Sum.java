@@ -2,10 +2,13 @@
  * Introduction to Software Development (Java)
  * 
  * https://github.com/egalli64/dev-intro
- *
- * From flow chart / pseudo-code to code: sum of values in an array
  */
 
+/**
+ * From flow chart / pseudo-code to code
+ * <p>
+ * Sum of values in an array
+ */
 void main() {
     int[] data = { 1, 42, 13, 3, 45, 2 };
 
