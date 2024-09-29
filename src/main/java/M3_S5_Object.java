@@ -2,10 +2,11 @@
  * Introduction to Software Development (Java)
  * 
  * https://github.com/egalli64/dev-intro
- *
- * An example of Object Oriented Programming
  */
 
+/**
+ * An example of Object Oriented Programming
+ */
 void main() {
     // Create an object of Pet type
     Pet bob = new Pet("Bob");
@@ -14,6 +15,9 @@ void main() {
     bob.eat();
 }
 
+/**
+ * A simple class
+ */
 class Pet {
     // Private means that is not visible from the rest of the world
     private String name;
