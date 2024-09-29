@@ -2,12 +2,15 @@
  * Introduction to Software Development (Java)
  * 
  * https://github.com/egalli64/dev-intro
- *
- * From flow chart to code: print the natural numbers in 1 .. n (provided by the user)
  */
 
 import java.util.Scanner;
 
+/**
+ * From flow chart to code
+ * <p>
+ * Print the natural numbers in 1 .. n (user provided)
+ */
 void main() {
     System.out.print("Pass me a (small) natural number: ");
 
