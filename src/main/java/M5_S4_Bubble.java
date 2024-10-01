@@ -1,9 +1,10 @@
-
 /*
  * Introduction to Software Development (Java)
  * 
  * https://github.com/egalli64/dev-intro
- *
+ */
+
+/**
  * Bubble sort - most basic implementation
  */
 import java.util.Arrays;
