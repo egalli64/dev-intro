@@ -9,9 +9,11 @@
  */
 void main() {
     int target = -42;
-    System.out.println("target is " + target);
+    System.out.print("target is ");
+    System.out.println(target);
 
-    // TODO: set positive to true if target is greater than zero
-    boolean positive = true;
-    System.out.println("target is positive: " + positive);
+    // TODO: set the boolean variable to true if the target is positive
+    // HINT: compare the target against zero using the > (greater than) operator
+    boolean isPositive = true;
+    System.out.println("target is positive: " + isPositive);
 }
