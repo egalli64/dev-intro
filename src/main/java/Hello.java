@@ -9,6 +9,7 @@
  */
 public class Hello {
     public static void main(String[] args) {
+        // print the string "Hello", then terminates the line
         System.out.println("Hello");
     }
 }
