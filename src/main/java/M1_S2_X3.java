@@ -9,11 +9,12 @@
  */
 void main() {
     int left = -42;
-    int right = -18;
     System.out.println("left is " + left);
+
+    int right = -18;
     System.out.println("right is " + right);
 
-    // TODO: set positive to true if left, right or both are greater than zero
-    boolean positive = true;
-    System.out.println("left, right, or both are positive: " + positive);
+    // TODO: set positives to true if left, right or both are greater than zero
+    boolean positives = true;
+    System.out.println("At least one between left and right is positive: " + positives);
 }
