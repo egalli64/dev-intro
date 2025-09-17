@@ -11,32 +11,32 @@ void main() {
     // a boolean variable
     boolean a = true;
     // print the passed string - do not terminate the line
-    System.out.print("a is ");
+    IO.print("a is ");
     // print the passed boolean (as string), then terminate the line
-    System.out.println(a);
+    IO.println(a);
 
     // another boolean variable
     boolean b = false;
-    System.out.print("b is ");
-    System.out.println(b);
+    IO.print("b is ");
+    IO.println(b);
 
     // AND
     boolean conjunction = a && b;
-    System.out.print("a and b is ");
-    System.out.println(conjunction);
+    IO.print("a and b is ");
+    IO.println(conjunction);
 
     // OR
     boolean inclusiveDisjunction = a || b;
-    System.out.print("a or b is ");
-    System.out.println(inclusiveDisjunction);
+    IO.print("a or b is ");
+    IO.println(inclusiveDisjunction);
 
     // NOT
     boolean negation = !a;
-    System.out.print("not a is ");
-    System.out.println("not a is " + negation);
+    IO.print("not a is ");
+    IO.println("not a is " + negation);
 
     // XOR
     boolean exclusiveDisjunction = a ^ b;
-    System.out.print("a xor b is ");
-    System.out.println(exclusiveDisjunction);
+    IO.print("a xor b is ");
+    IO.println(exclusiveDisjunction);
 }

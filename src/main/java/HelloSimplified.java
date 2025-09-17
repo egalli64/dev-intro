@@ -7,8 +7,8 @@
 /**
  * Hello Java by Unnamed class
  * <p>
- * Run it from CLI by: java --enable-preview HelloSimplified.java
+ * Run it from CLI by: java HelloSimplified.java
  */
 void main() {
-    System.out.println("Hello");
+    IO.println("Hello");
 }

@@ -9,13 +9,13 @@
  */
 void main() {
     int target = 42;
-    System.out.println("target is " + target);
+    IO.println("target is " + target);
 
     // TODO: set negative to true if target is less than zero
     boolean negative = true;
-    System.out.println("target is negative: " + negative);
+    IO.println("target is negative: " + negative);
 
     // TODO: set notNegative to true if negative is false
     boolean notNegative = false;
-    System.out.println("target is positive: " + notNegative);
+    IO.println("target is positive: " + notNegative);
 }
