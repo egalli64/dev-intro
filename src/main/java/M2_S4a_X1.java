@@ -9,12 +9,12 @@
  */
 void main() {
     int a = 42;
-    System.out.println("a is " + a);
+    IO.println("a is " + a);
 
     int b = 6;
-    System.out.println("b is " + b);
+    IO.println("b is " + b);
 
     // TODO: assign to c the result of the division of a by b
     int c = 0;
-    System.out.println("a divided by b is " + c);
+    IO.println("a divided by b is " + c);
 }

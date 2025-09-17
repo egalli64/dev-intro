@@ -9,11 +9,11 @@
  */
 void main() {
     int number = 42;
-    System.out.println("The chosen number is " + number);
+    IO.println("The chosen number is " + number);
 
     // TODO: check if the number is positive, negative, or zero
     // just the correct answer should be printed
-    System.out.println("The number is positive");
-    System.out.println("The number is negative");
-    System.out.println("The number is zero");
+    IO.println("The number is positive");
+    IO.println("The number is negative");
+    IO.println("The number is zero");
 }
