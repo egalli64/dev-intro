@@ -9,7 +9,7 @@
  */
 void main() {
     for (int i = 0; i < 10; i++) {
-        System.out.println(i);
+        IO.println(i);
         // TODO: interrupt the loop if the loop variable is equal to five
     }
 }

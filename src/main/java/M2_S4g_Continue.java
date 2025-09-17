@@ -9,13 +9,13 @@
  */
 void main() {
     for (int value = 0; value < 10; value++) {
-        System.out.print(' ');
+        IO.print(' ');
         if (value < 3 || value > 6) {
-            System.out.print('?');
+            IO.print('?');
             continue;
         }
-        System.out.print(value);
+        IO.print(value);
     }
 
-    System.out.println();
+    IO.println();
 }
