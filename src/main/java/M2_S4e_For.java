@@ -9,6 +9,6 @@
  */
 void main() {
     for (int value = 0; value < 10; value++) {
-        System.out.println(value);
+        IO.println(value);
     }
 }

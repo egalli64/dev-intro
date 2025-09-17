@@ -11,7 +11,7 @@ void main() {
     int value = 0;
 
     while (value < 10) {
-        System.out.println(value);
+        IO.println(value);
         value += 1;
     }
 }
