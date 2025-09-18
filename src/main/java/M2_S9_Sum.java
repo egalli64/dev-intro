@@ -17,5 +17,5 @@ void main() {
         result += data[i];
     }
 
-    System.out.println("Sum of array is " + result);
+    IO.println("Sum of array is " + result);
 }

@@ -14,7 +14,7 @@ void main() {
 
     for (int i = 0; i < data.length; i++) {
         if (data[i] % 2 == 0) {
-            System.out.println(data[i]);
+            IO.println(data[i]);
         }
     }
 }

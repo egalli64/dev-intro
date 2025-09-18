@@ -22,5 +22,5 @@ void main() {
         }
     }
 
-    System.out.println(s + " is a palindrome? " + isPalindrome);
+    IO.println(s + " is a palindrome? " + isPalindrome);
 }

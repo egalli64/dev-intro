@@ -21,5 +21,5 @@ void main() {
         }
     }
 
-    System.out.println("The biggest value is: " + max);
+    IO.println("The biggest value is: " + max);
 }
