@@ -36,7 +36,7 @@ int triple(int base) {
 void caller() {
     int value = 12;
     int result = triple(value);
-    System.out.println(value + " ---> " + result);
+    IO.println(value + " ---> " + result);
 
     count += 1;
 }
@@ -46,7 +46,7 @@ void caller() {
  */
 void f() {
     count = triple(27);
-    System.out.println(count);
+    IO.println(count);
 }
 
 /**

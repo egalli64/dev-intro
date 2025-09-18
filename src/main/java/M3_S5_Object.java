@@ -30,7 +30,7 @@ class Pet {
 
     public void eat() {
         weight += 0.1;
-        System.out.println(name + " is eating, now is weight is " + weight);
+        IO.println(name + " is eating, now is weight is " + weight);
     }
 
     @Override
