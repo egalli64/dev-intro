@@ -4,8 +4,6 @@
  * https://github.com/egalli64/dev-intro
  */
 
-import java.util.Scanner;
-
 /**
  * From flow chart to code
  * <p>
@@ -13,10 +11,7 @@ import java.util.Scanner;
  */
 void main() {
     int n = 1;
-
-    System.out.print("Are there 6 fresh eggs? [y/n]: ");
-    Scanner scanner = new Scanner(System.in);
-    String input = scanner.next();
+    String input = IO.readln("Are there 6 fresh eggs? [y/n]: ");
 
     // if eggs are there, the number of milk bottles changes (?!)
     char c = input == null || input.isEmpty() ? 'y' : Character.toLowerCase(input.charAt(0));
@@ -24,6 +19,5 @@ void main() {
         n = 6;
     }
 
-    System.out.println("Buy " + n + " milk bottle(s)");
-    scanner.close();
+    IO.println("Buy " + n + " milk bottle(s)");
 }

@@ -17,7 +17,7 @@ void main() {
     int[] data = { 1, 42, 13, 3, 45, 2 };
 
     if (data.length == 0) {
-        System.out.println("Done");
+        IO.println("Done");
     } else {
         // "i" is the index of the current data element checked
         int i = 0;
@@ -25,7 +25,7 @@ void main() {
         while (true) {
             // check if the current value in the array is even
             if (data[i] % 2 == 0) {
-                System.out.println(data[i]);
+                IO.println(data[i]);
             }
 
             // check if it is the last element
@@ -35,6 +35,6 @@ void main() {
             // increase the index, to check the next element
             i = i + 1;
         }
-        System.out.println("Done");
+        IO.println("Done");
     }
 }

@@ -4,24 +4,19 @@
  * https://github.com/egalli64/dev-intro
  */
 
-import java.util.Scanner;
-
 /**
  * From flow chart to code
  * <p>
  * Print the natural numbers in 1 .. n (user provided)
  */
 void main() {
-    System.out.print("Pass me a (small) natural number: ");
-
-    Scanner scanner = new Scanner(System.in);
-    int n = scanner.nextInt();
+    // For the moment we assume the user actually pass a good input
+    String input = IO.readln("Pass me a (small) natural number: ");
+    int n = Integer.parseInt(input);
 
     int i = 1;
     while (i <= n) {
-        System.out.println(i);
+        IO.println(i);
         i += 1;
     }
-
-    scanner.close();
 }
