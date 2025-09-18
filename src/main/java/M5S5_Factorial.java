@@ -9,10 +9,10 @@
 void main() {
     int n = 6;
 
-    System.out.println("Calculating factorial of " + n);
-    System.out.println("Recursive: " + fact(n));
-    System.out.println("Tail recursive: " + factTail(n));
-    System.out.println("Iterative: " + factIterative(n));
+    IO.println("Calculating factorial of " + n);
+    IO.println("Recursive: " + fact(n));
+    IO.println("Tail recursive: " + factTail(n));
+    IO.println("Iterative: " + factIterative(n));
 }
 
 // recursive

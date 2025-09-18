@@ -10,14 +10,14 @@ void main() {
     int left = 42;
     int right = 35;
 
-    System.out.printf("Calculating GCD of %d and %d\n", left, right);
-    System.out.println("Recursive: " + gcd(left, right));
-    System.out.println("Iterative: " + gcdIterative(left, right));
+    IO.println("Calculating GCD of " + left + " and " + right);
+    IO.println("Recursive: " + gcd(left, right));
+    IO.println("Iterative: " + gcdIterative(left, right));
 }
 
 //recursive
 int gcd(int a, int b) {
-    System.out.println(a + ", " + b);
+    IO.println(a + ", " + b);
     if (b == 0) {
         return a;
     }
@@ -27,12 +27,12 @@ int gcd(int a, int b) {
 
 // iterative
 int gcdIterative(int a, int b) {
-    System.out.println(a + ", " + b);
+    IO.println(a + ", " + b);
     while (b != 0) {
         int temp = a;
         a = b;
         b = temp % a;
-        System.out.println(a + ", " + b);
+        IO.println(a + ", " + b);
     }
     return a;
 }
